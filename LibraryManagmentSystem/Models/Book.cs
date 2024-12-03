@@ -18,10 +18,10 @@ namespace LibraryManagmentSystem.Models
         public DateTime CreatedAt { get; set;}
         public DateTime? ModifiedAt { get; set; }
 
-        [ForeignKey("CategoryId")]
-        public Category Category { get; }
+        //[ForeignKey("CategoryId")]
+        //public Category category { get; }
 
-        [ForeignKey("AuthorId")]
-        public Author Author { get; set; }
+        //[ForeignKey("AuthorId")]
+        //public Author author { get; set; }
     }
 }
